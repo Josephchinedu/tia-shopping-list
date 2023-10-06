@@ -1,4 +1,6 @@
-# TUNGA TIA TASK MANAGEMENT SYSTEM
+# TUNGA SHOPPING LIST API
+
+This is a project for Tunga TIA
 
 ## run this project
 Clone this project
@@ -27,6 +29,11 @@ create .env file and add the content of .env.example to it
 Database used is postgresql
 #
 
+make migrations
+```bash
+python manage.py makemigrations main
+```
+
 migrate models
 ```bash
 python manage.py migrate
@@ -42,4 +49,4 @@ run server
 python manage.py runserver
 ```
 docs
-<a href="https://documenter.getpostman.com/view/11580677/2s9YJXZjvA"> https://documenter.getpostman.com/view/11580677/2s9YJXZjvA </a># tunga_tia_tms
+<a href="https://documenter.getpostman.com/view/11580677/2s9YJXZjvA"> https://documenter.getpostman.com/view/11580677/2s9YJXZjvA </a>
